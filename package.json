@@ -28,6 +28,9 @@
     "test": "make test"
   },
   "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "jshint": "*"
   },
   "keywords": ["easy", "get", "request"]
 }
