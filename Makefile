@@ -6,6 +6,8 @@ DISTURL = --disturl=http://npm.taobao.org/dist
 
 TESTS = test/*
 
+version = $(shell cat package.json | grep version | awk -F'"' '{print $$4}')
+
 install:
 	@npm install
 
@@ -18,5 +20,9 @@ test: install
 
 jshint:
 	@./node_modules/.bin/jshint ./
+
+publish:
+	@npm publish
+	@git push origin $(version)
 
 .PHONY: test
