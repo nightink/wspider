@@ -2,22 +2,22 @@
   "name": "easy-get",
   "description": "the easy get request.",
   "version": "0.0.3",
-  "homepage": "https://github.com/Nightink/easy-get",
+  "homepage": "https://github.com/nightink/easy-get",
   "author": {
-    "name": "Nightink",
+    "name": "nightink",
     "email": "chceyes@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Nightink/easy-get.git"
+    "url": "git://github.com/nightink/easy-get.git"
   },
   "bugs": {
-    "url": "https://github.com/Nightink/easy-get/issues"
+    "url": "https://github.com/nightink/easy-get/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Nightink/easy-get/blob/master/LICENSE-MIT"
+      "url": "https://github.com/nightink/easy-get/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/easy-get",
