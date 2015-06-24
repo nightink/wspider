@@ -1,12 +1,17 @@
 
-var get = require('..');
+var request = require('..');
 
-get('http://www.baidu.com', function(err, res) {
+request('http://www.baidu.com', function(err, res) {
 
-  console.log(err, res);
+  console.log(err, res.body, res.size);
 });
 
-get('https://www.alipay.com', function(err, res) {
+request('https://www.alipay.com', function(err, res) {
+
+  console.log(err, res.body, res.size);
+});
+
+request('https://www.alipay.co', function(err, res) {
 
   console.log(err, res);
 });

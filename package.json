@@ -20,7 +20,7 @@
       "url": "https://github.com/nightink/easy-get/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/easy-get",
+  "main": "lib/request",
   "engines": {
     "node": ">= 0.8.0"
   },
