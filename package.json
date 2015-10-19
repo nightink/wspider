@@ -1,7 +1,7 @@
 {
   "name": "easy-get",
   "description": "the easy get request.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/nightink/easy-get",
   "author": {
     "name": "nightink",
@@ -25,7 +25,8 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "make test"
+    "jshint": "jshint lib/",
+    "test": "mocha --require should --reporter spec test/* --check-leaks"
   },
   "devDependencies": {
     "mocha": "*",
