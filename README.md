@@ -15,6 +15,14 @@ request(url, cb);
 ```javascript
 var request = require('wspider');
 request(url, {/* encoding: 'utf8' */}, cb);
+
+// return
+{
+  size: ,
+  statusCode: ,
+  rawBody: ,
+  rawResponse: ,
+}
 ```
 
 ## License

@@ -28,9 +28,10 @@
     "jshint": "jshint lib/",
     "test": "mocha --require should --reporter spec test/* --check-leaks"
   },
+  "files": [ "lib/" ],
   "devDependencies": {
     "mocha": "*",
-    "should": "*",
+    "should": "6",
     "jshint": "*"
   },
   "keywords": ["easy", "get", "request"]
