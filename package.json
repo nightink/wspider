@@ -1,23 +1,23 @@
 {
-  "name": "easy-get",
+  "name": "wspider",
   "description": "the easy get request.",
   "version": "0.0.4",
-  "homepage": "https://github.com/nightink/easy-get",
+  "homepage": "https://github.com/nightink/wspider",
   "author": {
     "name": "nightink",
     "email": "chceyes@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nightink/easy-get.git"
+    "url": "git://github.com/nightink/wspider.git"
   },
   "bugs": {
-    "url": "https://github.com/nightink/easy-get/issues"
+    "url": "https://github.com/nightink/wspider/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/nightink/easy-get/blob/master/LICENSE-MIT"
+      "url": "https://github.com/nightink/wspider/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/request",

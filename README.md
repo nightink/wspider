@@ -1,19 +1,19 @@
-# easy-get [![Build Status](https://secure.travis-ci.org/nightink/easy-get.png)](http://travis-ci.org/nightink/easy-get)
+# wspider [![Build Status](https://secure.travis-ci.org/nightink/wspider.png)](http://travis-ci.org/nightink/wspider)
 
 the easy get request.
 
 ## Getting Started
-Install the module with: `npm install easy-get`
+Install the module with: `npm install wspider`
 
 ```javascript
-var request = require('easy-get');
+var request = require('wspider');
 request(url, cb);
 ```
 
 ## API
 
 ```javascript
-var request = require('easy-get');
+var request = require('wspider');
 request(url, {/* encoding: 'utf8' */}, cb);
 ```
 
