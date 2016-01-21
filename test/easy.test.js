@@ -1,6 +1,6 @@
 
-var request = require('..');
-var should = require('should');
+const request = require('..');
+const should = require('should');
 
 describe('easy get test', function() {
 

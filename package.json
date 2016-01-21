@@ -1,7 +1,7 @@
 {
   "name": "wspider",
   "description": "the easy get request.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/nightink/wspider",
   "author": {
     "name": "nightink",
@@ -22,17 +22,27 @@
   ],
   "main": "lib/request",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 4.0.0"
   },
   "scripts": {
-    "jshint": "jshint lib/",
+    "lint": "eslint lib",
     "test": "mocha --require should --reporter spec test/* --check-leaks"
   },
-  "files": [ "lib/" ],
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-egg": "^1.0.3",
     "mocha": "*",
-    "should": "6",
-    "jshint": "*"
+    "should": "6"
   },
-  "keywords": ["easy", "get", "request"]
+  "keywords": [
+    "easy",
+    "get",
+    "request"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
 }
