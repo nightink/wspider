@@ -1,27 +1,34 @@
 # wspider [![Build Status](https://secure.travis-ci.org/nightink/wspider.png)](http://travis-ci.org/nightink/wspider)
 
-the easy get request.
+web spider, use node@4 return Promise
+
+base fork [urllib](http://github.com/node-modules/urllib)
 
 ## Getting Started
 Install the module with: `npm install wspider`
 
 ```javascript
-var request = require('wspider');
-request(url, cb);
+const ws = require('wspider');
+ws.request(url).then((res) => { console.log(res) });
 ```
 
 ## API
 
 ```javascript
-var request = require('wspider');
-request(url, {/* encoding: 'utf8' */}, cb);
+const ws = require('wspider');
+ws.request(url).then((res) => { console.log(res) });
+ws.request(url, {/* host: 'examples.com' */}).then((res) => {
+  console.log(res)
+});
 
 // return
 {
+  aborted: ,
+  data: ,
   size: ,
   statusCode: ,
-  rawBody: ,
-  rawResponse: ,
+  res: ,
+  rt: ,
 }
 ```
 

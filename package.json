@@ -26,12 +26,18 @@
   },
   "scripts": {
     "lint": "eslint lib",
-    "test": "mocha -r should -R spec -t 4000 --check-leaks test/* "
+    "test": "mocha -r should -R spec -t 4000 --check-leaks test/*.test.js",
+    "example": "DEBUG=wspider* node examples/index.js"
   },
   "files": [
     "lib"
   ],
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
   "devDependencies": {
+    "cheerio": "~0.19.0",
+    "co": "~4.6.0",
     "eslint": "^1.10.3",
     "eslint-config-egg": "^1.0.3",
     "mocha": "*",
@@ -41,8 +47,5 @@
     "easy",
     "get",
     "request"
-  ],
-  "dependencies": {
-    "debug": "^2.2.0"
-  }
+  ]
 }
