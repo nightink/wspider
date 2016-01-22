@@ -1,4 +1,4 @@
-# wspider [![Build Status](https://secure.travis-ci.org/nightink/wspider.png)](http://travis-ci.org/nightink/wspider)
+# wspider [![Build Status](https://travis-ci.org/nightink/wspider.svg)](http://travis-ci.org/nightink/wspider)
 
 web spider, use node@4 return Promise
 
